@@ -1,0 +1,354 @@
+/*font-family: 'Darker Grotesque', sans-serif; */
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #272727;
+    letter-spacing: 0.5px;
+}
+
+
+.logo {
+    height: 30px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.nav-item {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleMain {
+    padding: 20px;
+
+}
+
+.titleMain, .inlineBlock, .inlineBlock2, .inlineBlock3 {
+letter-spacing: 0.5px;
+}
+
+header, footer {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inlineBlock {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    background-color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.inlineBlock2 {
+     text-decoration: underline;
+}
+
+.inlineBlock3 {
+    color: #18A395;
+    position:relative;
+}
+
+.inlineBlock3:hover {
+    background-color: #FAFA30;
+    margin: none;
+}
+
+.fa-smile {
+    font: fa-smile;
+    left: -5px;
+    position: absolute;
+    top: 0;
+    color: #18A395;
+    font-size: 24px;
+}
+
+.section {
+    background-color: #E4EFEE;
+    height: 500px;
+}
+
+.Images {
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 20px;
+}
+
+
+p {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    width: 90%; 
+}
+
+p1 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+    width: 90%;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#description p:nth-child(1) {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#description p:nth-child(2) {
+    color: #18A395;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #272727;
+}
+
+a:hover, a:active {
+    color: #18A395;
+}
+
+
+.heroImg {
+    height: 500px;
+    padding: 50px;
+    background-color: #E4EFEE;
+    display: flex;
+    align-items: center;
+}
+
+.footer-item {
+    padding: 0;
+}
+
+/* Skills section*/
+
+.flex-contianer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto; 
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0px 0px 25px #A9D6D2;
+    justify-content: center;
+}
+
+.icon {
+    height: 80px;
+}
+
+.mySkills, .myWork {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: linear-gradient(55deg, #75E6DB 51%, #e4efee 100%);
+}
+
+.skills {
+    display: flex;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    flex-direction: column;
+    letter-spacing: 2px;
+}
+
+.containerWrapper, .introTitle {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+
+/* Work section*/
+
+
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;   
+    background-color: white;
+    padding-right: 20px;
+    box-shadow: 0px 0px 25px #A9D6D2;
+    margin-bottom: 50px;
+}
+
+.workGrid2 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;   
+    background-color: #18A395;
+    padding-right: 20px;
+    color: white;
+    box-shadow: 0px 0px 25px #A9D6D2;
+    margin-bottom: 50px;
+}
+
+.attribute1 {
+    width: 60%;
+    align-items: left;
+    height: 2px;
+    background-color: #18A395;
+
+}
+.myArea {
+    padding-left: 40px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+.img icon {
+    justify-content: space-evenly;
+}
+
+.myArea button, .heroImg button {
+    background-color: white;
+    padding: 17px 27px;
+    text-align: center;
+    display: inline-block;
+    color: #18A395;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-color: #18A395;
+}
+.myArea button:hover, .heroImg button:hover {
+    background-color: #FAFA30; 
+}
+
+h2 {
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+/* BOOTSTRAP steps navigation section*/
+.inlineBlockSteps {
+    flex-direction: row;
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    background-color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    white-space: nowrap;
+}
+
+
+
+/* JUMBOTRON section*/
+
+.jumbotron .jumbotron-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro {
+    background-color: #E4EFEE;
+}
+
+.mainWhite {
+    background-color: white;
+}
+
+
+.headerColour1 {
+    background-color: #75E6DB;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+.headerColour2 {
+    background-color: #76B9FC;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+p2 {
+    font: 24px;
+    padding: 20px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    flex-direction: column;
+    letter-spacing: 2px;
+}
+
+.headerTitle {
+    font-size: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.headerTitle1 {
+    font-size: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+/* COLUMN section*/
+
+.li {
+list-style-type: circle;
+}
+
+.col {
+    margin-bottom: 50px;
+}
+
+/* On screens that are 600px wide or less, 
+make the columns stack on top of each other instead 
+of next to each other */
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        
+    }
+    .flexChild {
+        width: 80%;
+    }
+
+    .workGrid {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        }
+    
+    .containerWrapper {
+        width: 90%;
+        }
+}
+
